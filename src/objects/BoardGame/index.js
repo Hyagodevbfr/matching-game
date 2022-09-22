@@ -7,7 +7,7 @@ function BoardGame(amoutCards){
 
     console.log(`${$htmlContent}`);
 
-    return `
+    return /*html*/`
       <section class="board-game">
       ${$htmlContent}
       </section>
