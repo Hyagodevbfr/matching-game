@@ -1,10 +1,11 @@
-import './src/styles/settings/colors.css'
-import './src/styles/generic/reset.css'
-import './src/styles/elements/base.css'
+import './src/styles/settings/colors.css';
+import './src/styles/generic/reset.css';
+import './src/styles/elements/base.css';
+import BoardGame from './src/objects/BoardGame';
 
-import CardGame from "./src/components/CardGame";
+
 
 const $body = document.querySelector('#root');
-const $htmlCardGame = CardGame();
+const $htmlBoardGame = BoardGame(6);
 
-$body.insertAdjacentHTML('beforebegin', $htmlCardGame);
+$body.insertAdjacentHTML('beforebegin', $htmlBoardGame);
