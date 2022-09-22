@@ -1,5 +1,12 @@
+:root{
+    font-size: 10px;
+    height: 100%;
+}
+
 body{
     background-color: var(--color-pomb-and-power);
     max-width: 320px;
     margin: auto;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
 }
