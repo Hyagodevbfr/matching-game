@@ -4,7 +4,7 @@
     return /*html */`
       <article class="card-front-back">
        ${CardGame()}
-       ${CardGame()}
+       ${CardGame("logo-javascript", 'Logo do JavaScript')}
       </article>
     `
  };
