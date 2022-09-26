@@ -6,8 +6,6 @@ function BoardGame(amoutCards){
     const $htmlCardFrontBack = CardFrontBack();
     const $htmlContent = $htmlCardFrontBack.repeat(amoutCards)
 
-    console.log(`${$htmlContent}`);
-
     return /*html*/`
       <section class="board-game">
       ${$htmlContent}
