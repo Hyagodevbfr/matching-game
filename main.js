@@ -17,5 +17,6 @@ $body.insertAdjacentHTML(
   `
   ${ScoreBoard()}
   ${BoardGame(6)}
+  
   `
 );
