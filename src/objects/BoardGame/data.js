@@ -1,0 +1,14 @@
+const cards = [{
+    icon: 'logo-javascript',
+    altIcon:'Logo do JavaScript'
+  },
+  {
+    icon: 'logo-html',
+    altIcon:'Logo do HTML'
+  },
+  {
+    icon: 'logo-css',
+    altIcon:'Logo do CSS'
+  }];
+
+  export default cards;
